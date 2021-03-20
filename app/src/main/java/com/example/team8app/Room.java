@@ -1,7 +1,7 @@
 package com.example.team8app;
 
 /* @Purpose: The Room class represents a room in the USB. Data about Rooms is stored in the database
- * @Created by  Matthew Pearson
+ * @Created by  Lyubomir Tsvetkov
  * @Since   06/04/2020
  */
 public class Room {

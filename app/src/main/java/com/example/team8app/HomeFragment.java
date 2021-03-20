@@ -18,7 +18,7 @@ import com.google.android.youtube.player.YouTubePlayerSupportFragment;
 /* @Purpose: Class that defines what happens when the home option of the navigation bar is used
  * @Created  by Rory Baker
  * @Since   08/04/2020
- * @Changed by Matthew Pearson on *20/04/2020*
+ * @Changed by Lyubomir Tsvetkov on *20/04/2020*
  */
 public class HomeFragment extends Fragment  {
 

@@ -22,7 +22,7 @@ import com.google.firebase.firestore.FirebaseFirestore;
  * @Purpose: Display's the FAQ sections of the app. Based on the on the FAQ selected, the appropriate
  * answer is retrieved from a FireStore database and then displayed to the user.
  *
- * @Created  by Nathan Fish
+ * @Created  by Lyubomir Tsvetkov
  * @Since   08/04/2020
  * @Changed by Nathan on 12/04/2020
  * @Changed by Lyubomir on 14/04/2020

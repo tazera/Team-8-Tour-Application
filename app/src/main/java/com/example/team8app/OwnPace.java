@@ -10,13 +10,11 @@ import android.view.ViewGroup;
 
 /* @Purpose: The OwnPace class is used as the activity for all the 'own pace' screen
  * @Created  Matthew Pearson
+ * @ Changed by Lyubomir
  * @Since   06/04/2020
  */
 
-/* @Purpose: The OwnPace class is used as the activity for all the 'own pace' screen
- * @Created  Matthew Pearson
- * @Since   06/04/2020
- */
+
 
 public class OwnPace extends Fragment {
 

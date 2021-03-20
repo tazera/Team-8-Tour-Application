@@ -16,6 +16,7 @@ import androidx.fragment.app.Fragment;
  * @Author Nathan Fish
  * @Since 08/04/2020
  * @Change Nathan on *15/04/2020*
+ * @Change Lyubo on *18/04/2020
  */
 public class WelcomeFragment extends Fragment{
 

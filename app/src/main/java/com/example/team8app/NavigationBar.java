@@ -18,10 +18,11 @@ import android.widget.Button;
 import com.google.android.material.navigation.NavigationView;
 
 /* @Purpose: This class handles all navigation within the app, including sidebar and button clicks
- * @Created  by Nathan Fish
+ * @Created  by Lyubomir Tsvetkov
  * @Since   08/04/2020
  * @Changed by Nathan on *15/04/2020*
  * @Changed by Matthew since *16/04/2020*
+ * @Changed by Lyubo on *17/04/2020*
  */
 public class NavigationBar extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener {
     //Navigation bar set up
