@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NavigationBar">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context=".NavigationBar">
+
+
+        <TextView
+            android:id="@+id/titleText"
+            android:layout_width="272dp"
+            android:layout_height="31dp"
+            android:layout_marginStart="114dp"
+            android:layout_marginTop="26dp"
+            android:layout_marginEnd="94dp"
+            android:fontFamily="@font/helvetica_family"
+            android:text="@string/directions_title"
+            android:textColor="#000000"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/main_campus_btn"
+            style="@style/ButtonStyle"
+            android:layout_marginTop="32dp"
+            android:onClick="directionsClick"
+            android:text="@string/directions_from_main_campus"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/titleText" />
+
+        <Button
+            android:id="@+id/haymarket_btn"
+            style="@style/ButtonStyle"
+            android:layout_marginTop="32dp"
+            android:layout_marginBottom="50dp"
+            android:onClick="directionsClick"
+            android:text="@string/directions_from_haymarket"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/main_campus_btn"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <Button
+            android:id="@+id/central_station_btn"
+            style="@style/ButtonStyle"
+            android:layout_marginTop="32dp"
+            android:layout_marginBottom="50dp"
+            android:onClick="directionsClick"
+            android:text="@string/directions_from_central_station"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/haymarket_btn"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <Button
+            android:id="@+id/eldon_square_btn"
+            style="@style/ButtonStyle"
+            android:layout_marginTop="32dp"
+            android:layout_marginBottom="50dp"
+            android:onClick="directionsClick"
+            android:text="@string/directions_from_eldon_square"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/central_station_btn" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

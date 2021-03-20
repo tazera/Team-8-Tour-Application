@@ -1,0 +1,294 @@
+<resources>
+    <string name="app_name">Team 8 App</string>
+    <string name="title_activity_maps">Map</string>
+
+    <string name="youtube_video_id">d9ZrzAQRyg8</string>
+
+    <string name="menu_title">Menu</string>
+
+    <!-- Landing page strings -->
+    <string name="newcastle_logo">Newcastle University Logo</string>
+    <string name="welcome_text">Welcome!</string>
+    <string name="open_day_button">Open Day</string>
+    <string name="post_app_day_button">Post Application Visit Day</string>
+
+    <!-- FAQ strings -->
+    <string name="faqTitle">Frequently Asked Questions</string>
+
+    <string name="question1">Is there disabled access to the building?</string>
+    <string name="answer1">Yes, the entrances are wheelchair accessible and there is lift access to the first four floors of the building.</string>
+
+    <string name="question2">Where are the medical centers located near the USB?</string>
+    <string name="answer2">There are first aid trained staff on premises to assist in medical needs as well as Newcastle Hospital close by if further medical help is required.</string>
+
+    <string name="question3">Is food available within the USB?</string>
+    <string name="answer3">There is food available within the building\'s cafeteria on the ground floor.</string>
+
+    <string name="question4">What nearby transport links are available?</string>
+    <string name="answer4">The closest bus and metro stations to the USB are just outside St. James\' Park, with the bus station on Barrack Road and a metro stop at the football grounds. The USB is also located just a 10 minute walk from the train station.</string>
+
+    <string name="question5">Where are toilets located?</string>
+    <string name="answer5">Toilets are located on every floor in the building, disabled toilets are available on all floors with disabled access.</string>
+
+    <!-- Open Day Strings -->
+    <string name="open_Day_Info">The open days here at Newcastle are a great way to explore and experience the Newcastle university campus directly.
+        During Summer and Autumn annually the university hosts the open days for students interested in seeking a higher education after school.\n\n
+        On the day you’ll be provided with a number of activities and aimed to help you learn more about the USB,
+        the university in general, and get a feel for life in the city.
+        You’ll also be given the chance to get face to face with a number of teachers, staff, and students currently studying at the university.\n
+    </string>
+    <string name="information">Information</string>
+    <string name="open_day">Open Day</string>
+    <string name="menu_button">Menu Button</string>
+    <string name="open_day_video">Open day video</string>
+
+    <!--Post Applicant Day Strings -->
+    <string name="post_app_title">Post Applicant Days</string>
+    <string name="post_app_text_p1">This Offer Holder Day will provide you with the opportunity to put questions to current staff and students,
+        visit teaching and research labs and see examples of student work. Questions can range from the course, to University life,
+        feel free to ask anything!
+        \n\nAs a prospective student you will get another look at the University and the environment you will be working in.
+        Additionally it will give the opportunity to revisit the USB.
+        This is where you will be spending most of your time when working at Newcastle for this course.
+    </string>
+    <string name = "post_app_header">
+        What will happen on the day?
+    </string>
+    <string name = "post_app_header2">
+        The day will take place from 10:00 to 15:30 and include:
+    </string>
+
+    <string name="post_app_text_p2">
+    - Registration and refreshments in the USB \n
+    - Welcome from the Head of School\n
+    - Icebreaker session for applicants\n
+    - Buffet lunch for all\n
+    - Student led talks on life as a student in Newcastle\n
+    - Demonstrations and talks by our research groups\n
+    - Alumni talk\n
+    - Informal chat with an academic\n
+    - Chats with existing students and academic staff over coffee and cake\n
+    - Tours of the School’s facilities
+    </string>
+
+
+    <!--Tours Strings -->
+    <string name="preset_tour">Take a tour!</string>
+    <string name="open_floor_plan">View Floor Plan</string>
+    <string name="floor_plan_picture">Picture of the Floor Plan</string>
+    <string name="floor_info">Information relative to the floor being currently viewed</string>
+    <string name="next_step">Next Step</string>
+    <string name="playbtn">Play Video</string>
+
+    <!-- Self guided tour menu -->
+    <string name="self_guided_title">Self Guided Tour</string>
+    <string name="preset_tour_button">Follow a pre-set walking tour</string>
+    <string name="own_pace_button">Discover at your own pace</string>
+
+    <!--Text For Pre-Config Tour-->
+
+    <!-- Titles -->
+    <string name="welcome_title">Welcome!</string>
+    <string name="buildings_title">Surrounding Buildings</string>
+    <string name="design_title">Design of the USB</string>
+    <string name="history_title">History of the School</string>
+    <string name="atrium_title">The Atrium</string>
+    <string name="openlab_title">Open Lab / Lectures</string>
+    <string name="staff_title">TIG / Staff</string>
+    <string name="flatfloor_title">Flat Floor Teaching</string>
+    <string name="terrace_title">The Terrace</string>
+    <string name="research_title">Research Groups</string>
+
+    <!-- Images -->
+    <string name="decision_room_image">Image of the decision theatre</string>
+    <string name="eat_urban_image">Image of the cafeteria within the USB</string>
+    <string name="fredrick_douglass_image">Image of the fredrick douglass building</string>
+    <string name="nida_building_image">Image of the National Innovation Center for Data and Ageing</string>
+    <string name="biosphere_image">Image of the biosphere</string>
+    <string name="usb_windows_image">Image of the USB from outside focusing on the buildings windows</string>
+    <string name="flat_floor_image">Image of the flat floor teaching area within the USB</string>
+    <string name="usb_reception_image">Image of the ground floor reception</string>
+    <string name="open_lab_image">Image of one of the open labs in the USB</string>
+    <string name="lecture_theatre_image">Image of the lecture theatre</string>
+    <string name="research_group_image">Image of research being done by one of the research groups within the building</string>
+    <string name="school_reception_image">Image of the 2nd floor computer science school reception</string>
+    <string name="terrace_image">Image of the terrace</string>
+
+    <!-- Content -->
+    <string name="welcome">Welcome to the award winning Urban Sciences Building (also known as USB)
+        – home of the School of Computing based on the Newcastle Helix site.\n\n\n
+        This is part of a £350 million flagship city centre regeneration project bringing together
+        academia, the public sector, communities, business and industry.\n\n\n
+        The 24 acre site is being developed with Newcastle City Council and Legal and General.
+        \n\n\n
+        It is planned to be a mixture of residential and academic units and commercial businesses
+        on the site. \n\n\n
+        The site was originally the home to Scottish and Newcastle breweries who brewed Newcastle Brown
+        Ale which is now brewed in the Netherlands .
+    </string>
+
+    <string name="helix">You may think we are working and studying on a building site, but the "Helix" is
+        an exciting new development with buildings either side of us providing lecture space and
+        big data opportunities for our students.</string>
+    <string name="frederick_douglass_title">The Frederick Douglass Centre</string>
+    <string name="frederick_douglass">Designed to offer multi-use space for outreach and teaching events, it houses an auditorium
+        that can hold 750 people, and can hold 200 more in a collaborative lecture theatre.</string>
+    <string name="NIC_title">The National Innovation Centre for Data and Ageing</string>
+        <string name="NIC">This building houses 2 research centres intended to enable businesses to work closely with
+        researchers in order to develop new technology around the use of data and helping society
+        to deal with the consequences of ageing.</string>
+    <string name="biosphere_title">The Biosphere</string>
+    <string name="biosphere">This is a unique eco-system of commercial laboratory space, offices and support services,
+        leading the way as a home for ambitious companies within life sciences, healthcare and
+        emerging fields of biotechnology.</string>
+
+    <string name="design_1">The design of the building has had a lot of input from
+        academics which has lead to some good design features that would have otherwise not been
+        included.</string>
+    <string name="windows">The USB\'s Windows</string>
+    <string name="design_2">
+        It combines all parts of the School of Computing from 3 buildings into 1.\n\n
+        It features Big Data Windows, the dots and lines across the windows at the front of the
+        building represent a self portrait of the University website, with the lines, dots and
+        circles representing the information and resources.\n\nThe building also features elements of
+        the past in its design, with the outside being covered in patterns of dots. These represent
+        the punch cards that were used to control the machines in the 19th centre and were used last
+        carrying data and instructions for calculating machines.
+    </string>
+
+    <string name="history">Although housed in a new state of the art building, the school offers a
+        long history having recently celebrated its 60th birthday and is one of the oldest schools
+        of computer science in the UK and was one of the first to award both undergraduate and
+        postgraduate degrees. In 2019 we celebrate 50 years since the first graduation from an
+        undergraduate programme.\n\n
+       The display next to reception shows some of our oldest computers and those we have used
+        throughout our 60 year history.
+    </string>
+    <string name="reception">The Building Reception</string>
+
+    <string name="ground_floor_sub_title">Ground Floor Facilities</string>
+    <string name="ground_floor">
+        There is the Cyber Physical Systems Laboratory, This lab focuses on systems that combine
+        hardware, software, networking and control. It is developing integrated systems for
+        transport, smart grids, building infrastructure etc.\n\n
+        There is the Decision Theatre, this
+        is an iInteractive 3D facility linked to the Urban Observatory that provides companies,
+        policy makers and researchers with powerful data visualisation for collaborative decision
+        making.\n\n
+        Finally there is the Urban Observatory, this is the largest urban sensing network
+        in the UK.  It records millions of observations daily and provides insights into how
+        Newcastle works over multiple time frames and sectors.
+    </string>
+    <string name="cafe_sub_title">Eat @ Urban</string>
+    <string name="cafe">
+        The perfect space to refuel, whether it’s a formal meeting or a relaxing
+        break, with a choice of barista coffee, deli sandwiches, paninis, jacket potatoes and
+        snacks. This is open to staff, students and the general public and is open 8-4 on a daily
+        basis in term time.
+    </string>
+
+    <string name="open_lab">Open lab is focused on human interaction with computers and human based
+        design of computer systems.\n\n
+        One of the examples of projects in the Open Lab is the ambient kitchen. This has utensils
+        that contain instruments that communicate with the network around them allowing the kitchen
+        to help you work out if you are stirring, cutting, how long you have been doing it for etc.
+        This technology might allow someone with mild dementia to get help in the kitchen and enable
+        them to get computer aided assistance.
+    </string>
+    <string name="lecture_theatre">The lecture theatre has a capacity of 303 students and has the
+        ability for the lecturer to customise what is shown on each of the projected screen.
+        This means the lecture can still display the lecture notes whilst they are demonstrating a
+        piece of code or practical element of the lecture.\n\n
+        Each seat has lumbar support and access to a power socket with USB ports.
+    </string>
+
+    <string name="school_reception">
+        On the second floor you can find the exit to the lecture theatre, the School reception and our teaching innovation group.\n\n
+        The School Office contains all the Professional Services staff and the NUIT Computing
+        Support team.\n\n
+        This is the area where you should come and ask for help and support when required.
+    </string>
+    <string name="teaching_inov_group">
+        The Teaching Innovation Group aim to encourage, foster and pursue innovation in teaching.
+        TIG run our Outreach programme with the Computing at School initiative.\n\n\ This programme runs
+        teacher training, outreach events and visits to schools.\n\n TIG are also responsible for
+        reviewing existing degree programmes, developing employability skills and maintaining links
+        with industry.
+    </string>
+
+    <string name="flat_floor_teaching1">The flat floor teaching spaces have 312 machines, with all
+        the software that students will need for their degree.\n\n The machines run NetSupport software
+        that allows the lecturer to send and receive files from the class. The lecturer is also able
+        to share their screen to the students and give a lecture.</string>
+    <string name="flat_floor_teaching2">
+        The desks allow students to work on their own laptop or use pen and paper for the
+        modules that do not require a computer.\n\n The undergraduate and the MSc Computer Science
+        students use this area.
+    </string>
+
+    <string name="fourth_floor">On the fourth floor, there is more flat floor teaching spaces and
+        seminar rooms but these are usually used by 3rd year students and above.</string>
+    <string name="roof_terrace">
+        The building has 2 roof terraces on the 4th and 5th floors, with the one on the 4th floor
+        accessible to students.\n\n This roof terrace has a wild flower meadow which is great for bees
+        and the views over Newcastle.
+    </string>
+
+    <string name="research_groups1">The 5th and 6th floors of the building are home to 2 research
+        groups.\n\n
+        Interdisciplinary Computing and Complex BioSystems have expertise in machine intelligence,
+        complex systems and computational biology. The problems they focus on are in natural complex
+        systems and synthetic ones. This ranges from biology, chemistry and physics, to biological
+        engineering, health care, and software engineering.
+    </string>
+    <string name="research_groups2">
+        Secure and Resilient Systems, Their research directly contributes to creating modern
+        information systems, networks and infrastructures.\n\n They are dependable and secure in all
+        aspects. The Secure and Resilient Systems group investigates fundamental concepts,
+        development techniques, models, architectures and mechanisms that directly contribute to
+        creating modern information systems, networks and infrastructures that are dependable and
+        secure in all aspects.
+    </string>
+
+    <string name="end_tour">We hope you enjoyed this brief tour of our building!</string>
+
+    <!-- Discover at own pace menu -->
+    <string name="floor1_button">1st Floor</string>
+    <string name="floor2_button">2nd Floor</string>
+    <string name="floor3_button">3rd Floor</string>
+    <string name="floor4_button">4th Floor</string>
+    <string name="floor5_button">5th Floor</string>
+    <string name="floor6_button">6th Floor</string>
+
+    <!-- Self guided tour strings -->
+    <string name="error_message">Error loading floor</string>
+    <string name="floor1_image_desc">floor plan of floor one</string>
+    <string name="floor2_image_desc">floor plan of floor two</string>
+    <string name="floor3_image_desc">floor plan of floor three</string>
+    <string name="floor4_image_desc">floor plan of floor four</string>
+    <string name="floor5_image_desc">floor plan of floor five</string>
+    <string name="floor6_image_desc">floor plan of floor six</string>
+
+    <!-- Google Maps Directions Strings -->
+    <string name="directions_title">Directions to the USB</string>
+    <string name="directions_from_main_campus">Directions from Main Campus</string>
+    <string name="directions_from_haymarket">Directions from Haymarket</string>
+    <string name="directions_from_central_station">Directions from Central Station</string>
+    <string name="directions_from_eldon_square">Directions from Eldon Square</string>
+
+    <string name="main_campus_text">Main Campus</string>
+    <string name="haymarket_text">Haymarket</string>
+    <string name="central_station_text">Central Station</string>
+    <string name="eldon_square_text">Eldon Square</string>
+
+    <string name="food_and_drink_stops">Food and Drink</string>
+    <string name="university_stops">University</string>
+    <string name="accomodation_stops">Accommodation</string>
+
+    <array name="pre_config_tour"></array>
+
+    <!-- Nav Bar Strings -->
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+</resources>

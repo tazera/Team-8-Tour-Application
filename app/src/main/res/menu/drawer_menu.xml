@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This menu file stores all the options that are in included in the navigation bar, setting each id to access them and what name they
+are displayed as-->
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/nav_welcome"
+            android:title="Welcome"/>
+        <item android:id="@+id/nav_directions"
+            android:title="Directions to USB"/>
+        <item android:id="@+id/nav_tour"
+            android:title="USB Self Guided Tour"/>
+        <item android:id="@+id/nav_faq"
+            android:title="FAQ"/>
+
+    </group>
+</menu>

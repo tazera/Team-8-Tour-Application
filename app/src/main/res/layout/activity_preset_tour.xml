@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NavigationBar">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context=".NavigationBar">
+
+
+        <TextView
+            android:id="@+id/titleText"
+            android:layout_width="200dp"
+            android:layout_height="38dp"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="22dp"
+            android:layout_marginEnd="40dp"
+            android:fontFamily="@font/helvetica_family"
+            android:text="@string/preset_tour"
+            android:textColor="#000000"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.551"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:gravity="center_horizontal"
+            />
+
+        <Button
+            android:id="@+id/welcome_btn"
+            style="@style/ButtonStyle"
+            android:layout_marginHorizontal="40dp"
+            android:layout_marginTop="20dp"
+            android:drawableStart="@drawable/shield_wrapper"
+            android:paddingStart="25dp"
+            android:paddingEnd="30dp"
+            android:text="@string/welcome_title"
+            android:onClick="tourClick"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/titleText" />
+
+        <Button
+            android:id="@+id/buildings_btn"
+            style="@style/ButtonStyle"
+            android:layout_marginHorizontal="40dp"
+            android:layout_marginTop="10dp"
+            android:drawableStart="@drawable/shield_wrapper"
+            android:paddingStart="25dp"
+            android:paddingEnd="30dp"
+            android:text="@string/buildings_title"
+            android:onClick="tourClick"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/welcome_btn" />
+
+        <Button
+            android:id="@+id/design_btn"
+            style="@style/ButtonStyle"
+            android:layout_marginHorizontal="40dp"
+            android:layout_marginTop="10dp"
+            android:drawableStart="@drawable/shield_wrapper"
+            android:paddingStart="25dp"
+            android:paddingEnd="30dp"
+            android:text="@string/design_title"
+            android:onClick="tourClick"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/buildings_btn" />
+
+        <Button
+            android:id="@+id/history_btn"
+            style="@style/ButtonStyle"
+            android:layout_marginHorizontal="40dp"
+            android:layout_marginTop="10dp"
+            android:drawableStart="@drawable/shield_wrapper"
+            android:paddingStart="25dp"
+            android:paddingEnd="30dp"
+            android:text="@string/history_title"
+            android:onClick="tourClick"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/design_btn" />
+
+        <Button
+            android:id="@+id/atrium_btn"
+            style="@style/ButtonStyle"
+            android:layout_marginHorizontal="40dp"
+            android:layout_marginTop="10dp"
+            android:drawableStart="@drawable/shield_wrapper"
+            android:paddingStart="25dp"
+            android:paddingEnd="30dp"
+            android:text="@string/atrium_title"
+            android:onClick="tourClick"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/history_btn" />
+
+        <Button
+            android:id="@+id/openlab_btn"
+            style="@style/ButtonStyle"
+            android:layout_marginHorizontal="40dp"
+            android:layout_marginTop="10dp"
+            android:drawableStart="@drawable/shield_wrapper"
+            android:paddingStart="25dp"
+            android:paddingEnd="30dp"
+            android:text="@string/openlab_title"
+            android:onClick="tourClick"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/atrium_btn" />
+
+        <Button
+            android:id="@+id/staff_btn"
+            style="@style/ButtonStyle"
+            android:layout_marginHorizontal="40dp"
+            android:layout_marginTop="10dp"
+            android:drawableStart="@drawable/shield_wrapper"
+            android:paddingStart="25dp"
+            android:paddingEnd="30dp"
+            android:text="@string/staff_title"
+            android:onClick="tourClick"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/openlab_btn" />
+
+        <Button
+            android:id="@+id/flatfloor_btn"
+            style="@style/ButtonStyle"
+            android:layout_marginHorizontal="40dp"
+            android:layout_marginTop="10dp"
+            android:drawableStart="@drawable/shield_wrapper"
+            android:paddingStart="25dp"
+            android:paddingEnd="30dp"
+            android:text="@string/flatfloor_title"
+            android:onClick="tourClick"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/staff_btn" />
+
+        <Button
+            android:id="@+id/terrace_btn"
+            style="@style/ButtonStyle"
+            android:layout_marginHorizontal="40dp"
+            android:layout_marginTop="10dp"
+            android:drawableStart="@drawable/shield_wrapper"
+            android:paddingStart="25dp"
+            android:paddingEnd="30dp"
+            android:text="@string/terrace_title"
+            android:onClick="tourClick"
+            app:layout_constraintBottom_toTopOf="@+id/research_btn"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/flatfloor_btn" />
+
+        <Button
+            android:id="@+id/research_btn"
+            style="@style/ButtonStyle"
+            android:layout_marginHorizontal="40dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="50dp"
+            android:drawableStart="@drawable/shield_wrapper"
+            android:paddingStart="25dp"
+            android:paddingEnd="30dp"
+            android:text="@string/research_title"
+            android:onClick="tourClick"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/terrace_btn" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>

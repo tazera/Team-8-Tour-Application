@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This is the main welcome page, App should open up to this page, default to this page -->
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NavigationBar">
+
+    <ImageView
+        android:id="@+id/newcLogo"
+        android:layout_width="310dp"
+        android:layout_height="199dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginBottom="40dp"
+        app:layout_constraintBottom_toTopOf="@+id/title"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ncl_front"
+        android:contentDescription="@string/newcastle_logo"/>
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="34dp"
+        android:fontFamily="@font/helvetica_family"
+        android:text="@string/welcome_text"
+        android:textColor="#000000"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/openDay"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/newcLogo" />
+
+    <Button
+        android:id="@+id/postAppVisit"
+        style="@style/ButtonStyle"
+        android:layout_marginBottom="71dp"
+        android:text="@string/post_app_day_button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/openDay"
+        android:onClick="sendToHome"/>
+
+    <Button
+        android:id="@+id/openDay"
+        style="@style/ButtonStyle"
+        android:layout_marginBottom="23dp"
+        android:text="@string/open_day"
+        app:layout_constraintBottom_toTopOf="@+id/postAppVisit"
+        app:layout_constraintEnd_toEndOf="@+id/title"
+        app:layout_constraintTop_toBottomOf="@+id/title"
+        android:onClick="sendToHome" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

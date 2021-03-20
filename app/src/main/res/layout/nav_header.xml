@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- xml to create the top half of the navigation bar, stores the logo and menu title, made use
+ of in 'navigation_bar.xml' -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:background="@color/colorPrimary"
+    android:gravity="bottom"
+    android:padding="20dp"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark">
+
+    <ImageView
+        android:layout_width="233dp"
+        android:layout_height="99dp"
+        android:src="@mipmap/ncl_logo_foreground" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="8dp"
+        android:text="@string/menu_title"
+        android:fontFamily="@font/helvetica_family"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"/>
+
+
+</LinearLayout>

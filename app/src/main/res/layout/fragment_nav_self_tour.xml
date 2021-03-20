@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NavigationBar">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context=".NavigationBar">
+
+
+        <TextView
+            android:id="@+id/titleText"
+            android:layout_width="219dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="114dp"
+            android:layout_marginTop="26dp"
+            android:layout_marginEnd="94dp"
+            android:fontFamily="@font/helvetica_family"
+            android:text="@string/self_guided_title"
+            android:textColor="#000000"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:gravity="center_horizontal"/>
+
+        <Button
+            android:id="@+id/presetButton"
+            style="@style/ButtonStyle"
+            android:layout_marginTop="44dp"
+            android:onClick="selfTourClick"
+            android:text="@string/preset_tour_button"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/titleText" />
+
+        <Button
+            android:id="@+id/ownPaceButton"
+            style="@style/ButtonStyle"
+            android:layout_marginTop="32dp"
+            android:layout_marginBottom="50dp"
+            android:onClick="selfTourClick"
+            android:text="@string/own_pace_button"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/presetButton" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

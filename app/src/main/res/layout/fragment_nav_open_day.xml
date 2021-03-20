@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteY="81dp">
+
+        <TextView
+            android:id="@+id/infoTitle"
+            android:layout_width="95dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="244dp"
+            android:fontFamily="@font/helvetica_family"
+            android:text="@string/information"
+            android:textColor="#000000"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/titleText"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:gravity="center_horizontal" />
+
+        <TextView
+            android:id="@+id/titleText"
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="16dp"
+            android:fontFamily="@font/helvetica_family"
+            android:text="@string/open_day"
+            android:textColor="#000000"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:gravity="center_horizontal" />
+
+        <TextView
+            android:id="@+id/infoText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="38dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="50dp"
+            android:fontFamily="@font/helvetica_family"
+            android:padding="5dp"
+            android:text="@string/open_Day_Info"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textStyle="normal"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.473"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/infoTitle" />
+
+        <FrameLayout
+            android:id="@+id/YouTubePlayer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginHorizontal="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/titleText" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

@@ -1,0 +1,56 @@
+{
+  "project_info": {
+    "project_number": "918402109269",
+    "firebase_url": "https://usbtourapp.firebaseio.com",
+    "project_id": "usbtourapp",
+    "storage_bucket": "usbtourapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:918402109269:android:98302adbcccc54fa0969dc",
+        "android_client_info": {
+          "package_name": "com.example.team8app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "918402109269-vgjqsi3e1ogst67ro48ke96sms37nnrc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.team8app",
+            "certificate_hash": "a0de1a4adafa8473d08b1f462d534c3bfac64bf8"
+          }
+        },
+        {
+          "client_id": "918402109269-nbfsifsgp5mkki04s0oj68a7oaiodpca.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.team8app",
+            "certificate_hash": "efefc39f4b16ffaca320279e05730d06400d5d01"
+          }
+        },
+        {
+          "client_id": "918402109269-72936qh0emdkg4nqghc92t016s9k31n9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCXjyQgh761oSqllxYX85iDros17Qfx9PQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "918402109269-72936qh0emdkg4nqghc92t016s9k31n9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
