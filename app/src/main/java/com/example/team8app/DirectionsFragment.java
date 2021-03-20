@@ -9,6 +9,8 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 
+import javax.swing.text.View;
+
 /* @Purpose: Class to display the directions to usb section of the app when that part of the navigation bar is selected
  * @Created  by Nathan Fish
  * @Since   08/04/2020

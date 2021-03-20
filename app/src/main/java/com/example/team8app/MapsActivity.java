@@ -31,7 +31,7 @@ import java.util.List;
 /* @Purpose: The Maps Activity class handles drawing Routes and Map markers on our USB directions screen
  * @Created  Matthew Pearson
  * @Since   10/04/2020
-  @Changed by Lyubomir Tsvetkov
+ * @Changed by Lyubomir Tsvetkov
  * @Since 15/04/2020
  */
 public class MapsActivity extends FragmentActivity implements OnMapReadyCallback {

@@ -27,7 +27,7 @@ import java.util.List;
  * The class is connected to the activity_floor1.xml file and draws the selected floor plan to the screen.
  * @Created by  Matthew Pearson
  * @Since   06/04/2020
- *  @Changed by Lyubomir Tsvetkov on *20/04/2020*
+ * @Changed by Lyubomir Tsvetkov on *20/04/2020*
  */
 public class Floor extends FragmentActivity {
 
